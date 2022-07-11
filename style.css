@@ -13,6 +13,9 @@ ul {
     text-align: left;
     font-size: x-large;
 }
+ol {
+    font-size: x-large;
+}
 div {
     text-align: center;
 }
@@ -31,6 +34,27 @@ div {
 button {
     font-size: xx-large;
     background-color: white;
-    color: #e4884c;
     font-weight: bold;
+}
+
+button a{
+    background: white;
+    color: #e4884c;
+}
+
+.contents {
+    background-color: white;
+}
+
+.text {
+    color:#e4884c;
+}
+
+.contents li dt,
+.contents li dd,
+.contents li,
+dt strong {
+    background-color: white;
+    color: #e4884c;
+
 }
