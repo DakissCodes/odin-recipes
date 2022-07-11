@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4884c;
+    color: white; 
+}
+
+p {
+    font-size: x-large;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-size: x-large;
+}
+div {
+    text-align: center;
+}
+
+#header-one {
+    background-color: white;
+    color: #e4884c;
+    font-size: 45px;
+}
+
+#lower-background{
+    background-color: white;
+    color: #e4884c;
+}
+
+button {
+    font-size: xx-large;
+    background-color: white;
+    color: #e4884c;
+    font-weight: bold;
+}
