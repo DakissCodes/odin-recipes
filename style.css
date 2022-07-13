@@ -4,8 +4,10 @@
 }
 * {
     font-family: "Inter", sans-serif;
-    background-color: #e4884c;
-    color: white; 
+    background-color: #FEF9E7;
+    color:#229954;
+    margin: 0px;
+    border: 1px solid red;
 }
 
 p {
@@ -16,6 +18,7 @@ ul {
     display: inline-block;
     text-align: left;
     font-size: x-large;
+    list-style: none;
 }
 ol {
     font-size: x-large;
@@ -25,29 +28,19 @@ div {
 }
 
 #header-one {
-    background-color: white;
-    color: #e4884c;
-    font-size: 45px;
+    font-size: 35px;
+    margin-left: -60rem;
+    margin-top: 20px;
 }
-
-#lower-background{
-    background-color: white;
-    color: #e4884c;
-}
-
 button {
     font-size: xx-large;
-    background-color: white;
+    background-color: #FEF9E7;
     font-weight: bold;
 }
 
-button a{
-    background: white;
-    color: #e4884c;
-}
 
 .contents {
-    background-color: white;
+    background-color: #FEF9E7;
 }
 
 .text {
@@ -57,8 +50,78 @@ button a{
 .contents li dt,
 .contents li dd,
 .contents li,
-dt strong {
+dt strong,
+#lower-background,
+button a,
+#header-one {
+    background-color: #FEF9E7;
+    color: #229954;
+ 
+}
+
+.middle {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+
+}
+
+.secondary-header {
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.list {
+    margin-right: 20px;
+    padding: 20px;
+    display: inline-flex;
+
+}
+
+.list a {
+    padding: 15px;
+    font-size: 30px;
+    background-color: #FEF9E7;
+    text-decoration: none;
+}
+
+.list a:hover {
+    background-color: #FCF3CF;
+
+}
+
+.social-info {
+    margin-bottom: 20px;
+
+}
+
+.facebook {
+    padding: 5px;
+    font-size: 20px;
+    background-color: #3b5998;
+    text-decoration: none;
+    color: white;
+
+}
+
+.front-image {
+    height: 35em;;
+    width: auto;
+    border: 10px solid white;
+    margin-top: 30px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 45px;
+}
+
+.end-background {
     background-color: white;
-    color: #e4884c;
 
 }
